@@ -1,5 +1,5 @@
-from alchemy.transmutation.basic import lead_to_gold, stone_to_gem
-from alchemy.transmutation.advanced import philosophers_stone, elixir_of_life
+from alchemy.transmutation import (
+    elixir_of_life, lead_to_gold, philosophers_stone, stone_to_gem)
 import alchemy
 
 if (__name__ == "__main__"):

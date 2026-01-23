@@ -8,8 +8,8 @@ def healing_potion():
 
 
 def strength_potion():
-    return f"Strength potion brewed with {alchemy.create_water()} and \
-{create_fire()}"
+    return f"Strength potion brewed with {alchemy.elements.create_earth()} \
+and {create_fire()}"
 
 
 def invisibility_potion():
